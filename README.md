@@ -11,6 +11,6 @@ css.
 
 https://willowy-lamington-7a7520.netlify.app/
 
-![Image alt](https://github.com/africanecMorj/-horrorscope-Compiler/blob/main/Снимок%20экрана%20(184).png);
+![Image alt](https://github.com/africanecMorj/-horrorscope-Compiler/blob/main/Снимок%20экрана%20(184).png)
 
 
