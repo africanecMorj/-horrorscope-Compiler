@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css' integrity='sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ==' crossorigin='anonymous'/>
+</head>
+<body>
+    <div class="wrap">
+        
+        <div class="cssPopup">
+            <i class="fa-solid fa-xmark" id="cssClose"></i>
+            <h2>Text</h2>
+            <div class="row">
+                <span>
+                    <label for="">class for text</label>
+                    <input type="text" placeholder="class for text" id="textClass">
+                </span>
+                <span>
+                    <label for="">text color</label>
+                    <input type="color" placeholder="text color" id="textColor">
+                </span>
+                <span>
+                    <label for="">background color</label>
+                    <input type="color" placeholder="background color" id="backgroundColor">
+                </span>
+                <span>
+                    <label for="">text shadow color</label>
+                    <input type="color" placeholder="text shadow color" id="textShadow">
+                </span>
+                <span>
+                    <label for="">text weight</label>
+                    <input type="number" placeholder="text weight" id="textWeight">
+                </span>
+                <span>
+                    <label for="">text size</label>
+                    <input type="number" placeholder="text size" id="textSize">
+                </span>
+            </div>
+            
+            <h2>Div</h2>
+            <div class="row">
+                <span>
+                    <label for="">class for div</label>
+                    <input type="text" placeholder="class for div" id="divClass">
+                </span>
+                <span>
+                    <label for="">div height</label>
+                    <input type="number" placeholder="div height" id="divHeight">
+                </span>
+                <span>
+                    <label for="">div width</label>
+                    <input type="number" placeholder="div width" id="divWidth">
+                </span>
+                <span>
+                    <label for="">div color</label>
+                    <input type="color" placeholder="div color" id="divColor">
+                </span>
+                <span>
+                    <label for="">div contour width</label>
+                    <input type="number" placeholder="div contour width" id="contourDivWidth">
+                </span>
+                <span>
+                    <label for="">div color contour</label>
+                    <input type="color" id="contourDivColor">
+                </span>
+                <span>
+                    <label for="">how much to smooth div corners</label>
+                    <input type="number" placeholder="how much to smooth div corners" id="borderRadiusDiv">
+                </span>
+                <span>
+                    <label for="">div color shadow</label>
+                    <input type="color" id="divColorShadow">
+                </span>
+            </div>
+            <h2>Button</h2>
+            <div class="row">
+                <span>
+                    <label for="">class for button</label>
+                    <input type="text" placeholder="class for button" id="buttonClass">
+                </span>
+                <span>
+                    <label for="">button height</label>
+                    <input type="number" placeholder="button height" id="buttonHeight">
+                </span>
+                <span>
+                    <label for="">button width</label>
+                    <input type="number" placeholder="button width" id="buttonWidth">
+                </span>
+                <span>
+                    <label for="">button color</label>
+                    <input type="color" placeholder="button color" id="buttonColor">
+                </span>
+                <span>
+                    <label for="">button contour width</label>
+                    <input type="number" placeholder="button contour width" id="contourButtonWidth">
+                </span>
+                <span>
+                    <label for="">button color contour</label>
+                    <input type="color" id="contourButtonColor">
+                </span>
+                <span>
+                    <label for="">how much to smooth button corners</label>
+                    <input type="number" placeholder="how much to smooth button corners" id="borderRadiusButton">
+                </span>
+                <span>
+                    <label for="">button color shadow</label>
+                    <input type="color" id="buttonColorShadow">
+                </span>
+            </div>
+            <h2>Picture</h2>
+            <div class="row">
+                <span>
+                    <label for="">class for image</label>
+                    <input type="text" placeholder="class for image" id="imageClass">
+                </span>
+                <span>
+                    <label for="">image height</label>
+                    <input type="number" placeholder="image height" id="imageHeight">
+                </span>
+                <span>
+                    <label for="">image width</label>
+                    <input type="number" placeholder="image width" id="imageWidth">
+                </span>
+                
+                <span>
+                    <label for="">image contour width</label>
+                    <input type="number" placeholder="image contour width" id="contourImageWidth">
+                </span>
+                <span>
+                    <label for="">image color contour</label>
+                    <input type="color" id="contourImageColor">
+                </span>
+                <span>
+                    <label for="">how much to smooth image corners</label>
+                    <input type="number" placeholder="how much to smooth image corners" id="borderRadiusImage">
+                </span>
+                <span>
+                    <label for="">image color shadow</label>
+                    <input type="color" id="imageColorShadow">
+                </span>
+            </div>
+        </div>
+        
+        <div class="loadPopup">
+            <i class="fa-solid fa-xmark" id="loadClose"></i>
+            <div class="loadArea">
+                
+            </div>
+        </div>
+        <div class="savePopup">
+            <i class="fa-solid fa-xmark" id="saveClose"></i>
+            <h2>Name for your project</h2>
+            <input type="text" id="projectName" placeholder="type">
+            <button id="save">Save</button>
+        </div>
+        <nav class="navigation">
+            <button id="cssSettings">CSS</button>
+            <button id="saveBtn">Save project</button>
+            <button id="loadBtn">Load project</button>
+
+        </nav>
+        <div class="mainPart">
+            <div class="redactorContainer">
+                <h2>Type text</h2>
+                <textarea name="" id="entryArea" class="entryArea">
+
+                </textarea>
+
+            </div>
+            <div class="resultContainer">
+                <h2>Result</h2>
+                <div id="resultArea" class="resultArea">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <style id="styleCss">
+        
+    </style>
+    <script src="./main.js" id="scriptJs">
+
+    </script>
+</body>
+</html>
