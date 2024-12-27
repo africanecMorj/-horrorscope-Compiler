@@ -1,4 +1,4 @@
-# -horrorscope-Compiler
+#Compiler
 Toy;
 
 How to run:
